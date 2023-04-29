@@ -26,7 +26,7 @@ public class _01_Array {
         //세번 째 방법
        // String[] coffees = new String[]{"아메리카노", "카페모카", "라떼", "카푸치노"};
         
-        //네번 쨰 방법
+        //네번 째 방법
         String[] coffees ={"아메리카노", "카페모카", "라떼", "카푸치노"};
 
         System.out.println("---------------------------");
