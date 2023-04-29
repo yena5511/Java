@@ -40,7 +40,7 @@ public class _01_Array {
         System.out.println("주세요");
 
 
-        //자른 자료형
+        //다른 자료형
         int[] i = new int[3];
         i[0] = 1;
         i[10] = 2;
