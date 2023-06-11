@@ -1,10 +1,51 @@
-package BAEK_JOON;
+ackage BAEK_JOON;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
 
+//      10818(최소, 최대)
+//        Scanner sc = new Scanner(System.in);
+//
+//        int N = sc.nextInt();
+//        int max = -1000000;
+//        int min = 1000000;
+//
+//        for (int i = 0; i < N; i++) {
+//            int x = sc.nextInt();
+//            if(x >= max) max = x;
+//            if(x <= min) min = x;
+//        }
+//        System.out.println(min + " " + max);
 
+
+
+
+//        10871(X 보다 작은 수)
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        int X = sc.nextInt();
+//        int arr[] = new int[N];
+//
+//        for (int  i = 0;  i < N;  i++) {
+//            arr[i] = sc.nextInt();
+//        }
+//
+//        for (int i = 0; i < N; i++) {
+//            if(arr[i] < X){
+//                System.out.print(arr[i]+" ");
+//            }
+//        }
+
+
+
+//        25314(코딩은 체육과목 입니다)
+//        Scanner sc = new Scanner(System.in);
+//        int x = sc.nextInt();
+//        for (int i = 1; i <= x/4; i++) {
+//            System.out.print("long " );
+//        }
+//        System.out.println("int");
         
 
 
