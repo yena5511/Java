@@ -6,3 +6,4 @@ public class MyProgram {
         new SecondPage().printSettings();
     }
 }
+
