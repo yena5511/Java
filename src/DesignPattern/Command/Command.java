@@ -34,3 +34,15 @@ class PickupCommand extends Command{
         robot.pickup();
     }
 }
+
+class CommandOrderAdapter extends Command {
+    private Order order;
+
+    public  CommandOrderAdapter (Order _order) {
+        order = _order;
+    }
+
+    public void excute (){
+        order.run(robot);
+    }
+}

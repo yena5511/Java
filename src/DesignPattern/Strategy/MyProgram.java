@@ -28,4 +28,11 @@ public class MyProgram {
 
     }
 
+    public void setModeMovie (){
+        searchButton.setSearchStrategy(
+                new SearchFindAdapter(new FindMovieAltorithm())
+        );
+    }
+
+
 }
