@@ -8,7 +8,8 @@ abstract class Component {
 
 class LightButton extends Component{
     @Override
-    protected String getCompName() { return  "라이트 버튼"; }
+    protected String getCompName() { return  "라이트 버튼";
+    }
 }
 
 class DarkButton extends Component{
@@ -32,5 +33,6 @@ class LightDropdown extends Component {
 
 class DarkDropdown extends Component {
     @Override
-    protected String getCompName() { return "다크 드랍다운"}
+    protected String getCompName() { return "다크 드랍다운";
+    };
 }
